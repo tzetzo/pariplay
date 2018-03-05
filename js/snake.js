@@ -103,7 +103,7 @@ Game = (function() {
 
     function checkCollision(x, y, array) { 
         for(var i = 0; i < array.length; i++) {
-            if(array[i].x < x + 0.05 && array[i].x > x - 0.05 && array[i].y < y + 0.05 && array[i].y > y - 0.05){   
+            if(array[i].x < x + 0.01 && array[i].x > x - 0.01 && array[i].y < y + 0.01 && array[i].y > y - 0.01){   
                 return true;
             }
         } 
