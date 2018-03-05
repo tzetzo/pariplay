@@ -5,7 +5,6 @@
   "engines": {
     "node": "6.9.2"
   },
-  "main": "snake.php",
   "scripts": {
     "start": "node index.js",
     "test": "node test.js"
@@ -18,11 +17,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/tzetzo/pariplay"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  }
 }
