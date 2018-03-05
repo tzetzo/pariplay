@@ -5,10 +5,10 @@
   "engines": {
     "node": "6.9.2"
   },
-  "main": "snake.php",
+  "main": "index.js",
   "scripts": {
-    "start": "node snake.php",
-    "test": "node snake.php"
+    "start": "node index.js",
+    "test": "node test.js"
   },
   "dependencies": {
     //"ejs": "^2.5.6",
